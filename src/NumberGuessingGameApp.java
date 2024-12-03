@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-/**
- * NumberGuessingGameApp
- * Handles user input and output for the number guessing game.
- */
 public class NumberGuessingGameApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -11,7 +7,7 @@ public class NumberGuessingGameApp {
 
         System.out.println("Welcome to the Number Guessing Game!");
         System.out.println("I have picked a number between 1 and 50. Can you guess what it is?");
-        System.out.println("But beware! If you pick the black number, the game ends immediately!");
+        System.out.println("Be careful though! If you pick the black number, the game ends immediately!");
 
         boolean gameEnded = false;
 
